@@ -7,11 +7,14 @@ export function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const navLinks = [
-        { to: "/", label: "Hjem" },
-        { to: "/planen-for-dagen", label: "Planen for dagen" },
-        { to: "/om-stedet", label: "Om stedet" },
-        { to: "/om-oss", label: "Om oss" },
-        { to: "/ønskeliste", label: "Ønskeliste" },
+        { to: "/maxoghelenesbryllup/", label: "Hjem" },
+        {
+            to: "/maxoghelenesbryllup/planen-for-dagen",
+            label: "Planen for dagen",
+        },
+        { to: "/maxoghelenesbryllup/om-stedet", label: "Om stedet" },
+        { to: "/maxoghelenesbryllup/om-oss", label: "Om oss" },
+        { to: "/maxoghelenesbryllup/ønskeliste", label: "Ønskeliste" },
     ];
 
     return (
