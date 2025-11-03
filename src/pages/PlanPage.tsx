@@ -6,7 +6,7 @@ const PlanPage = () => {
                     Planen for dagen
                 </h1>
 
-                <div className="max-w-2xl mx-auto space-y-20 text-lg text-muted-foreground leading-relaxed">
+                <div className="w-full mx-auto space-y-20 text-lg text-muted-foreground leading-relaxed">
                     <div className="text-center">
                         <br />
                         <h2 className="text-2xl font-medium text-foreground mb-4">

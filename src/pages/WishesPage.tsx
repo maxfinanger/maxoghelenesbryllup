@@ -5,7 +5,7 @@ const WishesPage = () => {
                 Ønskeliste
             </h1>
 
-            <div className="max-w-2xl mx-auto space-y-8 text-base md:text-lg text-muted-foreground leading-relaxed">
+            <div className="w-full mx-auto space-y-8 text-base md:text-lg text-muted-foreground leading-relaxed">
                 <p className="text-center">
                     Den beste gaven dere kan gi oss er deres tilstedeværelse på
                     vår store dag!

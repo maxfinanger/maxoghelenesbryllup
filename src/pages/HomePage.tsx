@@ -1,7 +1,7 @@
 const HomePage = () => {
     return (
         <div className="container mx-auto px-6 py-20">
-            <div className="max-w-3xl mx-auto text-center space-y-16">
+            <div className="w-full mx-auto text-center space-y-16">
                 <div className="space-y-6">
                     <h1 className="text-5xl md:text-6xl font-serif text-foreground">
                         Max & Helene

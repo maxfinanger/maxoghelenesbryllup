@@ -1,16 +1,16 @@
 export default function AboutUsPage() {
     return (
-        <div className="container mx-auto px-6 py-16 flex items-center justify-center min-h-[calc(100vh-200px)]">
+        <div className="container mx-auto px-6 py-16 flex items-center justify-center min-h-[calc(100vh-200px)] text-center">
             <div className="w-full">
                 <h1 className="text-3xl font-light text-center mb-12 text-foreground">
                     Om oss
                 </h1>
 
-                <div className="max-w-3xl mx-auto">
+                <div className="mx-auto">
                     <div className="mb-12">
                         <div className="relative w-full aspect-[16/10] rounded-lg overflow-hidden">
                             <img
-                                src="/happy-couple-portrait-outdoor-natural-light.jpg"
+                                src="/images/max-og-helene.jpg"
                                 alt="Max og Helene"
                                 className="w-full h-full object-cover"
                             />
@@ -24,17 +24,7 @@ export default function AboutUsPage() {
                             kjærlighet. Etter mange fine år sammen, er vi klare
                             til å ta det neste store steget i livet vårt.
                         </p>
-                        <p>
-                            Vi gleder oss enormt til å dele denne spesielle
-                            dagen med våre nærmeste venner og familie. Det betyr
-                            alt for oss at dere er med oss når vi sier ja til
-                            hverandre.
-                        </p>
-                        <p className="text-center text-sm text-muted-foreground/80 pt-8">
-                            Med kjærlighet,
-                            <br />
-                            Max & Helene
-                        </p>
+                        <p>Vi gleder oss enormt til å dele denne spesielle</p>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ const LocationPage = () => {
                 Om stedet
             </h1>
             <br />
-            <div className="max-w-3xl mx-auto space-y-12 text-muted-foreground">
+            <div className="w-full mx-auto space-y-12 text-muted-foreground">
                 <p>
                     Etter vielsen i kirken fortsetter feiringen på Strand
                     Restaurant. Stedet ligger ved Oslofjorden i Bærum, med
