@@ -33,7 +33,7 @@ export function Header() {
                         ))}
                     </div>
 
-                    <div className="md:hidden absolute right-6">
+                    <div className="md:hidden absolute right-6 top-[10px]">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             className="p-2 hover:bg-gray-100 rounded-md transition-colors"
