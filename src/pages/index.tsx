@@ -1,6 +1,15 @@
 import HomePage from "./HomePage";
 import AboutUsPage from "./AboutUsPage";
-import HelpPage from "./HelpPage";
+import LocationPage from "./LocationPage";
 import NotFoundPage from "./NotFoundPage";
+import PlanPage from "./PlanPage";
+import WishesPage from "./WishesPage";
 
-export { HomePage, AboutUsPage, HelpPage, NotFoundPage };
+export {
+    HomePage,
+    AboutUsPage,
+    LocationPage,
+    NotFoundPage,
+    PlanPage,
+    WishesPage,
+};
