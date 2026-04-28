@@ -1,5 +1,3 @@
-"use client";
-
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -12,8 +10,8 @@ export function Header() {
             to: "/maxoghelenesbryllup/planen-for-dagen",
             label: "Planen for dagen",
         },
-        { to: "/maxoghelenesbryllup/om-stedet", label: "Om stedet" },
-        { to: "/maxoghelenesbryllup/om-oss", label: "Om oss" },
+        { to: "/maxoghelenesbryllup/festen", label: "Festen" },
+        //{ to: "/maxoghelenesbryllup/om-oss", label: "Om oss" },
         { to: "/maxoghelenesbryllup/ønskeliste", label: "Ønskeliste" },
     ];
 

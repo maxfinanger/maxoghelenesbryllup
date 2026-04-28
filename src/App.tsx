@@ -5,12 +5,14 @@ import { RoutingMain } from "./routing/RoutingMain";
 
 function App() {
     return (
-        <Router>
-            <div className="App bg-[#ffffff] center-content">
+        <Router basename="/maxoghelenesbryllup">
+            <div className="flex flex-col min-h-screen bg-white">
                 <Header />
-                <main className="m-0 p-0">
+                
+                <main className="flex-1 w-full">
                     <RoutingMain />
                 </main>
+
                 <Footer />
             </div>
         </Router>

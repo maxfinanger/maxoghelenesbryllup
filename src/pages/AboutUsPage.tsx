@@ -1,31 +1,33 @@
 export default function AboutUsPage() {
     return (
-        <div className="container mx-auto px-6 py-16 flex items-center justify-center min-h-[calc(100vh-200px)] text-center">
-            <div className="w-full">
-                <h1 className="text-3xl font-light text-center mb-12 text-foreground">
+        <div className="container mx-auto px-6 py-24">
+            <div className="max-w-3xl mx-auto text-center space-y-14">
+                <h1 className="text-4xl md:text-5xl font-light tracking-tight text-foreground">
                     Om oss
                 </h1>
 
-                <div className="mx-auto">
-                    <div className="mb-12">
-                        <div className="relative w-full aspect-[16/10] rounded-lg overflow-hidden">
-                            <img
-                                src="https://maxfinanger.github.io/maxoghelenesbryllup/images/max-og-helene.jpeg"
-                                alt="Max og Helene"
-                                className="w-full h-full object-cover"
-                            />
-                        </div>
+                {/* Photo - same width as other pages use */}
+                <div className="max-w-2xl mx-auto">
+                    <div className="relative aspect-[16/10] rounded-3xl overflow-hidden shadow-xl">
+                        <img
+                            src="https://maxfinanger.github.io/maxoghelenesbryllup/images/max-og-helene.jpeg"
+                            alt="Max og Helene"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
+                </div>
 
-                    <div className="space-y-8 text-base md:text-lg text-muted-foreground leading-relaxed text-center">
-                        <p>
-                            Vi møttes første gang i 2022, og siden den dagen har
-                            livet vårt vært fylt med eventyr, latter og
-                            kjærlighet. Etter mange fine år sammen, er vi klare
-                            til å ta det neste store steget i livet vårt.
-                        </p>
-                        <p>Vi gleder oss enormt til å dele denne spesielle</p>
-                    </div>
+                {/* Text */}
+                <div className="max-w-2xl mx-auto space-y-8 text-base md:text-lg text-muted-foreground leading-relaxed">
+                    <p>
+                        Vi møttes første gang i 2022, og siden den dagen har
+                        livet vårt vært fylt med eventyr, latter og kjærlighet. 
+                        Etter mange fine år sammen, er vi klare til å ta det neste 
+                        store steget i livet vårt.
+                    </p>
+                    <p>
+                        Vi gleder oss enormt til å dele denne spesielle dagen med dere.
+                    </p>
                 </div>
             </div>
         </div>

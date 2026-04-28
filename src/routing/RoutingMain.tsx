@@ -20,7 +20,7 @@ export function RoutingMain() {
                 element={<PlanPage />}
             />
             <Route
-                path="/maxoghelenesbryllup/om-stedet"
+                path="/maxoghelenesbryllup/festen"
                 element={<LocationPage />}
             />
             <Route

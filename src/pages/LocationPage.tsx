@@ -2,7 +2,7 @@ const LocationPage = () => {
     return (
         <div className="container mx-auto px-6 py-16">
             <h1 className="text-3xl font-serif text-center mb-12 text-foreground">
-                Om stedet
+                Festen
             </h1>
             <br />
             <div
