@@ -5,14 +5,14 @@ export function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const navLinks = [
-        { to: "/maxoghelenesbryllup/", label: "Hjem" },
+        { to: "/", label: "Hjem" },
         {
-            to: "/maxoghelenesbryllup/planen-for-dagen",
+            to: "/planen-for-dagen",
             label: "Planen for dagen",
         },
-        { to: "/maxoghelenesbryllup/festen", label: "Festen" },
+        { to: "/festen", label: "Festen" },
         //{ to: "/maxoghelenesbryllup/om-oss", label: "Om oss" },
-        { to: "/maxoghelenesbryllup/ønskeliste", label: "Ønskeliste" },
+        { to: "/ønskeliste", label: "Ønskeliste" },
     ];
 
     return (

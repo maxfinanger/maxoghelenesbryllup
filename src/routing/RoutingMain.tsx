@@ -13,22 +13,22 @@ import {
 export function RoutingMain() {
     return (
         <Routes>
-            <Route path="/maxoghelenesbryllup/" element={<HomePage />} />
-            <Route path="/maxoghelenesbryllup/*" element={<NotFoundPage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/*" element={<NotFoundPage />} />
             <Route
-                path="/maxoghelenesbryllup/planen-for-dagen"
+                path="/planen-for-dagen"
                 element={<PlanPage />}
             />
             <Route
-                path="/maxoghelenesbryllup/festen"
+                path="/festen"
                 element={<LocationPage />}
             />
             <Route
-                path="/maxoghelenesbryllup/om-oss"
+                path="/om-oss"
                 element={<AboutUsPage />}
             />
             <Route
-                path="/maxoghelenesbryllup/ønskeliste"
+                path="/ønskeliste"
                 element={<WishesPage />}
             />
         </Routes>
