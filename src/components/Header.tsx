@@ -6,39 +6,50 @@ export function Header() {
 
     const navLinks = [
         { to: "/", label: "Hjem" },
-        {
-            to: "/planen-for-dagen",
-            label: "Planen for dagen",
-        },
+        { to: "/planen-for-dagen", label: "Planen for dagen" },
         { to: "/festen", label: "Festen" },
-        //{ to: "/maxoghelenesbryllup/om-oss", label: "Om oss" },
         { to: "/ønskeliste", label: "Ønskeliste" },
     ];
 
     return (
         <>
-            <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-border/40">
-                <nav className="container mx-auto flex items-center justify-center py-6 px-6">
-                    <div className="hidden md:flex items-center gap-12">
+            <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-border/40 shadow-sm">
+                <nav className="container mx-auto px-6 py-8 flex items-center justify-between">
+                    
+                    {/* Logo / Couple Name */}
+                    <div className="flex items-center gap-3">
+                        <div>
+                            <Link to="/" className="font-serif text-2xl tracking-tight text-gray-900">
+                                Max &amp; Helene
+                            </Link>
+                            <p className="text-[10px] uppercase tracking-[1px] text-muted-foreground -mt-1">
+                                10. juli 2027
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Desktop Navigation */}
+                    <div className="hidden md:flex items-center gap-10">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.to}
                                 to={link.to}
-                                className="text-sm tracking-wider uppercase text-muted-foreground hover:text-foreground transition-colors duration-200"
+                                className="text-sm tracking-[1.5px] uppercase font-medium text-muted-foreground hover:text-rose-600 transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:h-px after:w-0 after:bg-rose-600 hover:after:w-full after:transition-all"
                             >
                                 {link.label}
                             </Link>
                         ))}
                     </div>
 
-                    <div className="md:hidden absolute right-6 top-[10px]">
+                    {/* Mobile Menu Button */}
+                    <div className="md:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="p-2 hover:bg-gray-100 rounded-md transition-colors"
+                            className="p-3 rounded-xl hover:bg-gray-100 transition-colors"
                             aria-label="Åpne meny"
                         >
                             <svg
-                                className="w-6 h-6"
+                                className="w-6 h-6 text-gray-700"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
@@ -46,7 +57,7 @@ export function Header() {
                                 <path
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
-                                    strokeWidth={2}
+                                    strokeWidth={2.5}
                                     d="M4 6h16M4 12h16M4 18h16"
                                 />
                             </svg>
@@ -55,45 +66,35 @@ export function Header() {
                 </nav>
             </header>
 
+            {/* Mobile Menu */}
             {isOpen && (
                 <>
                     <div
-                        className="fixed inset-0 bg-black/70 z-[9998] md:hidden"
+                        className="fixed inset-0 bg-black/60 z-[9998] md:hidden"
                         onClick={() => setIsOpen(false)}
                     />
-                    <div className="fixed top-0 right-0 bottom-0 w-64 bg-white z-[9999] shadow-2xl md:hidden">
+                    <div className="fixed top-0 right-0 bottom-0 w-72 bg-white z-[9999] shadow-2xl md:hidden">
                         <div className="flex flex-col h-full">
-                            <div className="flex items-center justify-between p-6 border-b bg-white">
-                                <h2 className="text-lg font-semibold text-gray-900">
-                                    Meny
-                                </h2>
+                            <div className="p-6 border-b flex items-center justify-between">
+                                <div className="flex items-center gap-3">
+                                    <div className="w-8 h-8 bg-rose-100 rounded-full flex items-center justify-center text-rose-600">❤️</div>
+                                    <span className="font-serif text-xl">Max &amp; Helene</span>
+                                </div>
                                 <button
                                     onClick={() => setIsOpen(false)}
-                                    className="p-2 hover:bg-gray-100 rounded-md transition-colors"
-                                    aria-label="Lukk meny"
+                                    className="p-3 hover:bg-gray-100 rounded-xl"
                                 >
-                                    <svg
-                                        className="w-5 h-5 text-gray-900"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M6 18L18 6M6 6l12 12"
-                                        />
-                                    </svg>
+                                    ✕
                                 </button>
                             </div>
-                            <div className="flex flex-col gap-6 p-6 bg-white">
+
+                            <div className="flex flex-col p-6 gap-8 text-lg">
                                 {navLinks.map((link) => (
                                     <Link
                                         key={link.to}
                                         to={link.to}
                                         onClick={() => setIsOpen(false)}
-                                        className="text-base tracking-wider uppercase text-gray-700 hover:text-gray-900 transition-colors duration-200"
+                                        className="uppercase tracking-widest text-gray-700 hover:text-rose-600 transition-colors"
                                     >
                                         {link.label}
                                     </Link>
@@ -103,7 +104,6 @@ export function Header() {
                     </div>
                 </>
             )}
-            <br />
         </>
     );
 }
