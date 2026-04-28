@@ -4,11 +4,20 @@ const LocationPage = () => {
             <h1 className="text-3xl font-serif text-center mb-12 text-foreground">
                 Festen
             </h1>
-            <br />
-            <div
-                className="w-full mx-auto space-y-12 text-muted-foreground p-8
-            "
-            >
+
+            {/* Hero Image */}
+            <div className="relative h-[420px] md:h-[500px] rounded-3xl overflow-hidden mb-12 shadow-xl">
+                <img
+                    src="https://maxfinanger.github.io/maxoghelenesbryllup/images/strand.jpeg"
+                    alt="Strand Restaurant"
+                    className="absolute inset-0 w-full h-full object-cover"
+                />
+                {/* Optional dark overlay for better text if you want to add title later */}
+                <div className="absolute inset-0 bg-black/20"></div>
+            </div>
+
+            {/* Content */}
+            <div className="max-w-5xl mx-auto space-y-8 text-muted-foreground leading-relaxed text-lg">
                 <p>
                     Etter vielsen i kirken fortsetter feiringen på Strand
                     Restaurant. Stedet ligger ved Oslofjorden i Bærum, med
@@ -16,41 +25,31 @@ const LocationPage = () => {
                     minutter fra Oslo sentrum med bil og 3 minutter fra Lysaker.
                 </p>
                 <p>
-                    Strand Restaurant har over 15 års erfaring med å arrangere
-                    bryllup. Lokalet har lyse rom over flere etasjer, inkludert
-                    en festsal som rommer opptil 150 gjester ved runde bord,
-                    eller over 200 når hele etasjen åpnes. Det er også en stor,
-                    privat terrasse mot sjøen.
-                </p>
-                <p>
                     For å komme dit med bil: Kjør fra Oslo sentrum via E18 mot
                     Drammen, ta avkjøring mot Lysaker og følg skiltene til
                     Stabekk. Det er gratis parkering med rikelig plass. Med
-                    offentlig transport: Ta buss – sjekk ruter på Moovit-appen.
+                    offentlig transport: 21 bussen eller trikken til Holbersplass, deretter ta 160 bussen til strand. Deretter kan man gå til lokalet.
                     Stedet har en privat gjestebrygge for ankomst med båt.
                 </p>
                 <p>
-                    Maten lages på stedets eget kjøkken. Vi har valgt
-                    skreddersydde bryllupspakker, inkludert signatur-tapas med
-                    klassiske og moderne smaker. Det serveres også drikke til
-                    måltidet.
+                    Det blir servert 3 retters middag, med vin på stedet. Det vil også være småretter servert etter vielsen og nattmat for de som blir igjen på festen til sent på natten.
                 </p>
                 <p>
                     Fasiliteter inkluderer lydanlegg, mikrofoner, projektor,
                     musikkanlegg og piano. Lokalet er HC-tilpasset med
-                    tilgjengelig inngang.
+                    tilgjengelig inngang. 
                 </p>
+
                 <div className="text-center mt-12">
                     <a
                         href="https://www.strandrestaurant.no/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-primary hover:underline transition-colors duration-200"
+                        className="inline-block bg-primary text-white px-8 py-4 rounded-full hover:bg-primary/90 transition-colors duration-200 font-medium"
                     >
-                        Besøk Strand Restaurants nettside for mer informasjon
+                        Besøk Strand Restaurants nettside →
                     </a>
                 </div>
-                <br />
             </div>
         </div>
     );
