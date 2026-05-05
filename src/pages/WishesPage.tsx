@@ -20,10 +20,6 @@ const WishesPage = () => {
                         Mer informasjon om dette kommer senere.
                     </p>
                 </div>
-
-                <p className="text-center text-sm text-muted-foreground/80 pt-4">
-                    Har dere spørsmål? Ta gjerne kontakt med oss!
-                </p>
             </div>
         </div>
     );

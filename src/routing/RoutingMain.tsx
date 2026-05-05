@@ -6,6 +6,7 @@ import {
     NotFoundPage,
     PlanPage,
     WishesPage,
+    RsvpPage,
 } from "../pages";
 
 // Kommentar
@@ -30,6 +31,10 @@ export function RoutingMain() {
             <Route
                 path="/ønskeliste"
                 element={<WishesPage />}
+            />
+            <Route
+                path="/rsvp"
+                element={<RsvpPage />}
             />
         </Routes>
     );

@@ -9,6 +9,7 @@ export function Header() {
         { to: "/planen-for-dagen", label: "Planen for dagen" },
         { to: "/festen", label: "Festen" },
         { to: "/ønskeliste", label: "Ønskeliste" },
+        { to: "/rsvp", label: "RSVP"}
     ];
 
     return (

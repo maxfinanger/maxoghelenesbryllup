@@ -4,6 +4,7 @@ import LocationPage from "./LocationPage";
 import NotFoundPage from "./NotFoundPage";
 import PlanPage from "./PlanPage";
 import WishesPage from "./WishesPage";
+import RsvpPage from "./RsvpPage"
 
 export {
     HomePage,
@@ -12,4 +13,5 @@ export {
     NotFoundPage,
     PlanPage,
     WishesPage,
+    RsvpPage,
 };
