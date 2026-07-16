@@ -1,6 +1,5 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
 import { RoutingMain } from "./routing/RoutingMain";
 
 function App() {
@@ -12,8 +11,7 @@ function App() {
                 <main className="flex-1 w-full">
                     <RoutingMain />
                 </main>
-
-                <Footer />
+              
             </div>
         </Router>
     );

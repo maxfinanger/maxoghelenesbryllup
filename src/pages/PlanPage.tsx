@@ -48,9 +48,7 @@ const PlanPage = () => {
                         <p className="mb-2">
                             Vi gleder oss til å feire med dere hele dagen!
                         </p>
-                        <p>
-                            Det blir transport fra kirken til Strand Restaurant.
-                        </p>
+                    
                     </div>
                 </div>
             </div>

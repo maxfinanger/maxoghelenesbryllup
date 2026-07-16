@@ -16,6 +16,8 @@ const LocationPage = () => {
                 <div className="absolute inset-0 bg-black/20"></div>
             </div>
 
+            <div className="h-2"> </div>
+
             {/* Content */}
             <div className="max-w-5xl mx-auto space-y-8 text-muted-foreground leading-relaxed text-lg">
                 <p>
@@ -25,19 +27,12 @@ const LocationPage = () => {
                     minutter fra Oslo sentrum med bil og 3 minutter fra Lysaker.
                 </p>
                 <p>
-                    For å komme dit med bil: Kjør fra Oslo sentrum via E18 mot
-                    Drammen, ta avkjøring mot Lysaker og følg skiltene til
-                    Stabekk. Det er gratis parkering med rikelig plass. Med
+                    For de som kommer dit med bil. Det er gratis parkering utenfor lokalet med masse plass. Med
                     offentlig transport: 21 bussen eller trikken til Holbersplass, deretter ta 160 bussen til strand. Deretter kan man gå til lokalet.
                     Stedet har en privat gjestebrygge for ankomst med båt.
                 </p>
                 <p>
                     Det blir servert 3 retters middag, med vin på stedet. Det vil også være småretter servert etter vielsen og nattmat for de som blir igjen på festen til sent på natten.
-                </p>
-                <p>
-                    Fasiliteter inkluderer lydanlegg, mikrofoner, projektor,
-                    musikkanlegg og piano. Lokalet er HC-tilpasset med
-                    tilgjengelig inngang. 
                 </p>
 
                 <div className="text-center mt-12">
@@ -47,7 +42,7 @@ const LocationPage = () => {
                         rel="noopener noreferrer"
                         className="inline-block bg-primary text-white px-8 py-4 rounded-full hover:bg-primary/90 transition-colors duration-200 font-medium"
                     >
-                        Besøk Strand Restaurants nettside →
+                        <p className="text-black">Besøk Strand Restaurants nettside for mer informasjon</p>
                     </a>
                 </div>
             </div>
