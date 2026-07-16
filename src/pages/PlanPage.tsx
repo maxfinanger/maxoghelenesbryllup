@@ -16,8 +16,8 @@ const PlanPage = () => {
           </div>
           <br />
           <div className="grid gap-8 lg:grid-cols-2">
-            <article className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-8 md:p-10 space-y-6">
-              <div className="inline-flex rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+            <article className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Vielsen
               </div>
               <div className="space-y-4 text-center">
@@ -33,8 +33,8 @@ const PlanPage = () => {
               </div>
             </article>
 
-            <article className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-8 md:p-10 space-y-6">
-              <div className="inline-flex rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+            <article className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Fest og middag
               </div>
               <div className="space-y-4 text-center">
