@@ -3,7 +3,7 @@ export default function AboutUsPage() {
     <div className="relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(201,162,123,0.12),_transparent_45%),linear-gradient(180deg,_rgba(255,250,247,0.6),_rgba(248,244,239,0.8))]" />
 
-      <div className="relative container mx-auto px-6 py-16 md:py-24">
+      <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center justify-center">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <p className="text-xs uppercase tracking-[0.45em] text-amber-900/70">
@@ -17,8 +17,8 @@ export default function AboutUsPage() {
             </p>
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] items-center">
-            <div className="rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+          <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] items-center justify-items-center">
+            <div className="w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Siden 2022
               </div>
