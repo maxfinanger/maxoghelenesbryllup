@@ -21,21 +21,10 @@ const LocationPage = () => {
       {/* Content */}
       <div className="max-w-5xl mx-auto space-y-8 text-muted-foreground leading-relaxed text-lg">
         <p>
-          Etter vielsen i kirken fortsetter feiringen på Strand Restaurant.
-          Stedet ligger ved Oslofjorden i Bærum, med adresse Strandalleen 48,
-          1368 Stabekk. Det er ca. 15 minutter fra Oslo sentrum med bil og 3
-          minutter fra Lysaker.
-        </p>
-        <p>
-          For de som kommer dit med bil. Det er gratis parkering utenfor lokalet
-          med masse plass. Med offentlig transport: 21 bussen eller trikken til
-          Holbersplass, deretter ta 160 bussen til strand. Deretter kan man gå
-          til lokalet. Stedet har en privat gjestebrygge for ankomst med båt.
-        </p>
-        <p>
-          Det blir servert 3 retters middag, med vin på stedet. Det vil også
+          Det blir servert 3 retters middag, med vin til maten. Det vil også
           være småretter servert etter vielsen og nattmat for de som blir igjen
-          på festen til sent på natten.
+          på festen til sent på natten. Vi stiller også med noen aktiviter siden
+          brudeparet skal ta bilder på veien fra Kirken og til festlokalet.
         </p>
 
         <div className="text-center mt-12">

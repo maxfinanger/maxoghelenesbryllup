@@ -30,6 +30,23 @@ const InformationPage = () => {
               <div className="inline-flex rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Reise og parkering
               </div>
+              <p>
+                Etter vielsen i kirken fortsetter feiringen på Strand
+                Restaurant. Stedet ligger ved Oslofjorden i Bærum, med adresse
+                Strandalleen 48, 1368 Stabekk. Det er ca. 15 minutter fra Oslo
+                sentrum med bil og 3 minutter fra Lysaker.
+              </p>
+              <p>
+                For de som kommer dit med bil. Det er gratis parkering utenfor
+                lokalet med masse plass. Med offentlig transport: 21 bussen
+                eller trikken til Holbersplass, deretter ta 160 bussen til
+                strand. Deretter kan man gå til lokalet. Stedet har en privat
+                gjestebrygge for ankomst med båt.
+              </p>
+            </section>
+
+            <section className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-8 md:p-10 space-y-5">
+              <div className="inline-flex rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80"></div>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Det går busser mellom Oslo og Strand. Derfra kan man også gå ned
                 til restauranten.
