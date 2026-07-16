@@ -3,8 +3,8 @@ const RsvpPage = () => {
     <div className="relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(201,162,123,0.12),_transparent_45%),linear-gradient(180deg,_rgba(255,250,247,0.65),_rgba(248,244,239,0.9))]" />
 
-      <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center ">
-        <div className="w-full max-w-3xl text-center space-y-10">
+      <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center justify-center">
+        <div className="w-full max-w-3xl mx-auto text-center space-y-10">
           <div className="space-y-4">
             <br />
             <h1 className="text-5xl md:text-7xl font-serif tracking-tight text-[#2f2621]">

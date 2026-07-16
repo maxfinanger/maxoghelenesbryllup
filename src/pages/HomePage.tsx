@@ -2,7 +2,7 @@ const HomePage = () => {
   return (
     <>
       {/* HERO SECTION - Large & Beautiful */}
-      <div className="relative h-screen flex items-center justify-center center-content overflow-hidden">
+      <div className="relative h-screen flex items-center justify-center overflow-hidden">
         <img
           src="https://maxfinanger.github.io/maxoghelenesbryllup/images/forside.jpeg" // ← Make sure this file is in your public folder
           alt="Max og Helene"
