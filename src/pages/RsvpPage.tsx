@@ -9,14 +9,14 @@ const RsvpPage = () => {
         <p className="text-2xl text-muted-foreground text-center mb-12">
           Vi gleder oss til å feire med deg!
         </p>
-
-        <p className="text-2xl text-muted-foreground text-center mb-12">
+        <br></br>
+        <p className="text-xl text-muted-foreground text-center mb-12">
           Gi beskjed til Max eller Helene om dere har annledning til å komme
-          eller ikke. Gjerne minn oss på eventuelle matallergier,
+          eller ikke. Informer oss også om eventuelle matallergier,
           kostholdsønsker eller andre forhold med tanke på mat og drikke for
           kvelden.
         </p>
-
+        <br></br>
         <div className="mt-12 text-center text-sm text-muted-foreground">
           Har du spørsmål? Ta kontakt med oss.
           <br />

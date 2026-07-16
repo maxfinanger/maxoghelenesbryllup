@@ -15,7 +15,7 @@ const PlanPage = () => {
             <p className="mb-3">
               <strong>Fagerborg kirke</strong>
               <br />
-              Halfdan Kjerulfs gate 7, 0369 Oslo
+              Pilestredet 72, 0354 Oslo
             </p>
             <p className="text-xl font-medium text-primary">
               Lørdag 10. juli 2027 kl. 14:30
