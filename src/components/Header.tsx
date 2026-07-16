@@ -15,14 +15,14 @@ export function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-border/40 shadow-sm">
+      <header className="sticky top-0 z-50 w-full border-b border-black/5 bg-white/75 backdrop-blur-xl shadow-[0_10px_30px_rgba(61,46,38,0.06)]">
         <nav className="container mx-auto px-6 py-8 flex items-center justify-between">
           {/* Logo / Couple Name */}
           <div className="flex items-center gap-3">
             <div>
               <Link
                 to="/"
-                className="font-serif text-2xl tracking-tight text-gray-900"
+                className="font-serif text-2xl tracking-tight text-[#2f2621]"
               >
                 Max &amp; Helene
               </Link>
@@ -38,7 +38,7 @@ export function Header() {
               <Link
                 key={link.to}
                 to={link.to}
-                className="text-sm tracking-[1.5px] uppercase font-medium text-muted-foreground hover:text-rose-600 transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:h-px after:w-0 after:bg-rose-600 hover:after:w-full after:transition-all"
+                className="text-sm tracking-[1.5px] uppercase font-medium text-muted-foreground hover:text-amber-800 transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:h-px after:w-0 after:bg-amber-800 hover:after:w-full after:transition-all"
               >
                 {link.label}
               </Link>
@@ -49,11 +49,11 @@ export function Header() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-3 rounded-xl hover:bg-gray-100 transition-colors"
+              className="p-3 rounded-xl hover:bg-black/5 transition-colors"
               aria-label="Åpne meny"
             >
               <svg
-                className="w-6 h-6 text-gray-700"
+                className="w-6 h-6 text-[#4a3a32]"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -77,18 +77,18 @@ export function Header() {
             className="fixed inset-0 bg-black/60 z-[9998] md:hidden"
             onClick={() => setIsOpen(false)}
           />
-          <div className="fixed top-0 right-0 bottom-0 w-72 bg-white z-[9999] shadow-2xl md:hidden">
+          <div className="fixed top-0 right-0 bottom-0 w-72 bg-[#fffaf7] z-[9999] shadow-2xl md:hidden">
             <div className="flex flex-col h-full">
               <div className="p-6 border-b flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-rose-100 rounded-full flex items-center justify-center text-rose-600">
-                    ❤️
+                  <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center text-amber-900">
+                    ♥
                   </div>
                   <span className="font-serif text-xl">Max &amp; Helene</span>
                 </div>
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="p-3 hover:bg-gray-100 rounded-xl"
+                  className="p-3 hover:bg-black/5 rounded-xl"
                 >
                   ✕
                 </button>
@@ -100,7 +100,7 @@ export function Header() {
                     key={link.to}
                     to={link.to}
                     onClick={() => setIsOpen(false)}
-                    className="uppercase tracking-widest text-gray-700 hover:text-rose-600 transition-colors"
+                    className="uppercase tracking-widest text-[#4a3a32] hover:text-amber-800 transition-colors"
                   >
                     {link.label}
                   </Link>

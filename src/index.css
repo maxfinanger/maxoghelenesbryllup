@@ -10,7 +10,10 @@ body {
   font-family: "Cormorant Garamond", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff;
+  background:
+    radial-gradient(circle at top, rgba(201, 162, 123, 0.14), transparent 45%),
+    linear-gradient(180deg, #fbf7f2 0%, #f8f4ef 45%, #f3ece5 100%);
+  color: #2f2621;
 }
 
 #root {
