@@ -13,7 +13,7 @@ const LocationPage = () => {
             <br />
           </div>
 
-          <div className="relative overflow-hidden rounded-[2rem] shadow-[0_24px_80px_rgba(61,46,38,0.12)] aspect-[16/10] md:aspect-[16/8]">
+          <div className="relative overflow-hidden rounded-xl shadow-[0_24px_80px_rgba(61,46,38,0.12)] aspect-[16/10] md:aspect-[16/8]">
             <img
               src="https://maxfinanger.github.io/maxoghelenesbryllup/images/strand.jpeg"
               alt="Strand Restaurant"
@@ -28,7 +28,7 @@ const LocationPage = () => {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] items-start">
-            <section className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <section className="rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Middag og fest
               </div>
@@ -47,7 +47,7 @@ const LocationPage = () => {
               </div>
             </section>
 
-            <section className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <section className="rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Praktisk info
               </div>

@@ -14,7 +14,7 @@ const InformationPage = () => {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2">
-            <section className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <section className="rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Toastmaster
               </div>
@@ -27,42 +27,35 @@ const InformationPage = () => {
               </p>
             </section>
 
-            <section className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <section className="rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
-                Reise og parkering
+                Dresscode
               </div>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                Etter vielsen i kirken fortsetter feiringen på Strand
-                Restaurant. Stedet ligger ved Oslofjorden i Bærum, med adresse
-                Strandalleen 48, 1368 Stabekk. Det er ca. 15 minutter fra Oslo
-                sentrum med bil og 3 minutter fra Lysaker.
+                Vi ønsker at alle gjester kler seg pent til bryllupet. For menn betyr dette smoking eller mørk dress, og for kvinner betyr dette ankellange kjoler. 
               </p>
-              <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                For de som kommer dit med bil. Det er gratis parkering utenfor
-                lokalet med masse plass. Med offentlig transport: 21 bussen
-                eller trikken til Holbersplass, deretter ta 160 bussen til
-                strand. Deretter kan man gå til lokalet. Stedet har en privat
-                gjestebrygge for ankomst med båt.
-              </p>
+              
             </section>
 
-            <section className="lg:col-span-2 rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-8 overflow-visible">
+            <section className="lg:col-span-2 rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-8 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Transport og ankomst
               </div>
 
               <div className="grid gap-6 md:grid-cols-2">
-                <div className="rounded-2xl bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
+                <div className="rounded-xl bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
                   <h3 className="text-lg md:text-xl font-serif text-[#2f2621]">
                     Kollektivtransport
                   </h3>
                   <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
-                    Det går busser mellom Oslo og Strand. Derfra kan man også gå
-                    ned til restauranten.
+                    Det går busser mellom Oslo og Strand. Enkelste vei blir antagelig 21 bussen
+                eller trikken til Holbersplass, deretter ta 160 bussen til
+                strand. Derfra kan man også gå
+                    ned til restauranten. 
                   </p>
                 </div>
 
-                <div className="rounded-2xl bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
+                <div className="rounded-xl bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
                   <h3 className="text-lg md:text-xl font-serif text-[#2f2621]">
                     Bil og parkering
                   </h3>

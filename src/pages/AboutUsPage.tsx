@@ -18,7 +18,7 @@ export default function AboutUsPage() {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] items-center">
-            <div className="rounded-3xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <div className="rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Siden 2022
               </div>
@@ -40,7 +40,7 @@ export default function AboutUsPage() {
 
             <div className="relative">
               <div className="absolute -inset-4 rounded-[2rem] bg-amber-900/5 blur-2xl" />
-              <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-[0_24px_80px_rgba(61,46,38,0.12)]">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-[0_24px_80px_rgba(61,46,38,0.12)]">
                 <img
                   src="https://maxfinanger.github.io/maxoghelenesbryllup/images/max-og-helene.jpeg"
                   alt="Max og Helene"
