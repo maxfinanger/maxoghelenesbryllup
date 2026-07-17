@@ -26,6 +26,7 @@ const LocationPage = () => {
               </span>
             </div>
           </div>
+          <br />
 
           <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] items-start justify-items-center">
             <section className="w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
