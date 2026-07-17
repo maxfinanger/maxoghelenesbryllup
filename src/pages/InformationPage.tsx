@@ -6,7 +6,7 @@ const InformationPage = () => {
       <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center justify-center">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
-            <br/>
+            <br />
             <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
               Praktisk Informasjon
             </h1>
@@ -32,39 +32,32 @@ const InformationPage = () => {
                 Dresscode
               </div>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                Vi ønsker at alle gjester kler seg pent til bryllupet. For menn betyr dette smoking eller mørk dress, og for kvinner betyr dette ankellange kjoler. 
+                Vi ønsker at alle gjester kler seg pent til bryllupet. For menn
+                betyr dette smoking eller mørk dress, og for kvinner betyr dette
+                ankellange kjoler.
               </p>
-              
             </section>
 
-            <section className="lg:col-span-2 w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-8 overflow-visible">
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
-                Transport og ankomst
+                Kollektivtransport
               </div>
+              <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                Det går busser mellom Oslo og Strand. Enkelste vei blir
+                antagelig 21-bussen eller trikken til Holbergs plass, deretter
+                ta 160-bussen til Strand. Derfra kan man også gå ned til
+                restauranten.
+              </p>
+            </section>
 
-              <div className="grid gap-6 md:grid-cols-2">
-                <div className="rounded-md bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
-                  <h3 className="text-lg md:text-xl font-serif text-[#2f2621]">
-                    Kollektivtransport
-                  </h3>
-                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
-                    Det går busser mellom Oslo og Strand. Enkelste vei blir antagelig 21 bussen
-                eller trikken til Holbersplass, deretter ta 160 bussen til
-                strand. Derfra kan man også gå
-                    ned til restauranten. 
-                  </p>
-                </div>
-
-                <div className="rounded-md bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
-                  <h3 className="text-lg md:text-xl font-serif text-[#2f2621]">
-                    Bil og parkering
-                  </h3>
-                  <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
-                    Det er også mulig å parkere ved kirken og ved Strand
-                    Restaurant, og stedet har en privat gjestebrygge.
-                  </p>
-                </div>
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
+              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+                Bil og parkering
               </div>
+              <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                Det er også mulig å parkere ved kirken og ved Strand Restaurant,
+                og stedet har en privat gjestebrygge.
+              </p>
             </section>
           </div>
         </div>

@@ -6,7 +6,7 @@ export default function NotFoundPage() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(201,162,123,0.12),_transparent_45%),linear-gradient(180deg,_rgba(255,250,247,0.65),_rgba(248,244,239,0.9))]" />
 
       <div className="relative w-full max-w-2xl text-center space-y-8 rounded-lg border border-white/70 bg-white/80 px-8 py-14 shadow-[0_8px_24px_rgba(61,46,38,0.03)] backdrop-blur-sm">
-      <br />
+        <br />
         <h1 className="text-7xl md:text-8xl font-serif tracking-tight text-[#2f2621]">
           404
         </h1>

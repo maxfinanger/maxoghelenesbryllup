@@ -8,7 +8,7 @@ export default function AboutUsPage() {
           <div className="text-center space-y-4">
             <br />
             <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
-              Max &amp; Helene
+              Helene &amp; Max
             </h1>
             <br />
           </div>

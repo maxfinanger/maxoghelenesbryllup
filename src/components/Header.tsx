@@ -26,7 +26,7 @@ export function Header() {
                 to="/"
                 className="font-serif text-2xl tracking-tight text-[#2f2621]"
               >
-                Max &amp; Helene
+                Helene &amp; Max
               </Link>
               <p className="text-[10px] uppercase tracking-[1px] text-muted-foreground -mt-1">
                 10. juli 2027

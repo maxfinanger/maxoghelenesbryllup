@@ -14,7 +14,7 @@ const HomePage = () => {
 
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
           <h1 className="text-6xl md:text-7xl font-serif text-white tracking-tight drop-shadow-lg">
-            Max &amp; Helene
+            Helene &amp; Max
           </h1>
           <p className="mt-4 text-3xl md:text-4xl text-white/90 font-light tracking-wide">
             10. juli 2027
