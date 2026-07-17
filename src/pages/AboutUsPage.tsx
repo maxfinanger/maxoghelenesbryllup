@@ -6,15 +6,11 @@ export default function AboutUsPage() {
       <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center justify-center">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
-            <p className="text-xs uppercase tracking-[0.45em] text-amber-900/70">
-              Om oss
-            </p>
+            <br />
             <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
               Max &amp; Helene
             </h1>
-            <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Noen ord om oss og reisen fram til den store dagen.
-            </p>
+            <br />
           </div>
 
           <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] items-center justify-items-center">
@@ -42,7 +38,7 @@ export default function AboutUsPage() {
               <div className="absolute -inset-4 rounded-[2rem] bg-amber-900/5 blur-2xl" />
               <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-[0_24px_80px_rgba(61,46,38,0.12)]">
                 <img
-                  src="https://maxfinanger.github.io/maxoghelenesbryllup/images/max-og-helene.jpeg"
+                  src="https://www.maxoghelene.no/images/max-og-helene.jpeg"
                   alt="Max og Helene"
                   className="h-full w-full object-cover"
                 />

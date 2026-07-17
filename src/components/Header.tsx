@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { X } from "lucide-react";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,6 +12,7 @@ export function Header() {
     { to: "/informasjon", label: "Informasjon" },
     { to: "/ønskeliste", label: "Ønskeliste" },
     { to: "/rsvp", label: "RSVP" },
+    { to: "/om-oss", label: "Om oss" },
   ];
 
   return (
@@ -80,17 +82,14 @@ export function Header() {
           <div className="fixed top-0 right-0 bottom-0 w-72 bg-[#fffaf7] z-[9999] shadow-2xl md:hidden">
             <div className="flex flex-col h-full">
               <div className="p-6 border-b flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center text-amber-900">
-                    ♥
-                  </div>
-                  <span className="font-serif text-xl">Max &amp; Helene</span>
+                <div className="font-serif text-xl text-[#2f2621]">
+                  Max &amp; Helene
                 </div>
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="p-3 hover:bg-black/5 rounded-xl"
+                  className="p-3 hover:bg-black/5 rounded-xl text-[#4a3a32]"
                 >
-                  ✕
+                  <X size={24} />
                 </button>
               </div>
 
@@ -100,7 +99,7 @@ export function Header() {
                     key={link.to}
                     to={link.to}
                     onClick={() => setIsOpen(false)}
-                    className="uppercase tracking-widest text-[#4a3a32] hover:text-amber-800 transition-colors"
+                    className="uppercase tracking-widest text-[#4a3a32] hover:text-amber-800 transition-colors py-1"
                   >
                     {link.label}
                   </Link>
