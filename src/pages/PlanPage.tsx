@@ -1,3 +1,41 @@
+const scheduleItems = [
+  {
+    time: "14:30",
+    title: "Vielse i Fagerborg kirke",
+    description:
+      "Vi gifter oss i Fagerborg kirke, og vi gleder oss til å dele dette øyeblikket med dere.",
+  },
+  {
+    time: "16:30",
+    title: "Velkomst ved Strand Restaurant",
+    description:
+      "Her blir det mingling, og servering av småretter og drikke.",
+  },
+  {
+    time: "17:30",
+    title: "Middag",
+    description:
+      "Vi serverer en tre-retters middag med vin til maten, og det blir holdt taler underveis.",
+  },
+  {
+    time: "20:30",
+    title: "Kaffe og kaker",
+    description: "Etter middagen blir det servert kaffe og kaker.",
+  },
+  {
+    time: "22:00",
+    title: "Dansegulv og fest",
+    description:
+      "Etter kake og kaffe åpner vi for dans og fest. Vi håper alle har lyst til å bli med videre inn i natten.",
+  },
+  {
+    time: "01:00",
+    title: "Nattmat",
+    description:
+      "For de som blir igjen på festen, blir det servert nattmat mot slutten.",
+  },
+];
+
 const PlanPage = () => {
   return (
     <div className="relative overflow-hidden">
@@ -16,62 +54,29 @@ const PlanPage = () => {
           </div>
           <br />
           <div className="flex flex-col gap-8 items-center">
-            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
-              <div className="space-y-4 text-center">
-                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  14:30 - Vielse i Fagerborg kirke 
-                </h6>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  Vi gifter oss i Fagerborg kirke, og vi gleder oss til å dele
-                  dette øyeblikket med dere.
-                </p>
-               
-              </div>
-              <br />
-              <div className="space-y-4 text-center">
-                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  16:30 - Velkomst ved Strand Restaurant
-                </h6>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  Vi ønsker alle gjester velkommen til Strand Restaurant for
-                  mingling, mat og drikke.
-                </p>
-              </div>
-               <br />
-              <div className="space-y-4 text-center">
-                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  17:30 - Middag
-                </h6>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  Vi serverer en tre-retters middag, og det blir servert vin til maten. Her blir det også holdt taler.
-                </p>
-              </div>
-               <br />
-              <div className="space-y-4 text-center">
-                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  20:30 - Kaffe og Kaker
-                </h6>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  Etter middagen blir det servert kaffe og kaker.
-                </p>
-              </div>
-                <br />
-              <div className="space-y-4 text-center">
-                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  22:00 - Dansegulv og fest
-                </h6>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  Etter kake og kaffe blir det åpnet for dans og fest. Vi håper alle har lyst til å bli med på å feire oss videre inn i natten.
-                </p>
-              </div>
-              <br />
-              <div className="space-y-4 text-center">
-                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  01:00 - Nattmat
-                </h6>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  For de som blir igjen på festen, blir det servert nattmat mot slutten.
-                </p>
+            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 md:p-12 overflow-visible">
+              <div className="space-y-8">
+                {scheduleItems.map((item) => (
+                  <div
+                    key={item.time}
+                    className="grid gap-4 md:grid-cols-[120px_1fr] md:gap-8 items-start"
+                  >
+                    <div className="text-left md:text-right pt-1">
+                      <p className="text-2xl md:text-3xl font-serif text-[#2f2621] tracking-tight">
+                        {item.time}
+                      </p>
+                    </div>
+
+                    <div className="space-y-2">
+                      <h2 className="text-xl md:text-2xl font-serif text-[#2f2621]">
+                        {item.title}
+                      </h2>
+                      <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </article>
           </div>
