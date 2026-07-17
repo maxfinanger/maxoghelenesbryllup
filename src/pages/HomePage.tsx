@@ -4,7 +4,7 @@ const HomePage = () => {
       {/* HERO SECTION - Large & Beautiful */}
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
         <img
-          src="https://maxfinanger.github.io/maxoghelenesbryllup/images/forside.jpeg" // ← Make sure this file is in your public folder
+          src="https://www.maxoghelene.no/images/forside.jpeg" // ← Make sure this file is in your public folder
           alt="Max og Helene"
           className="absolute inset-0 w-full h-full object-cover"
         />

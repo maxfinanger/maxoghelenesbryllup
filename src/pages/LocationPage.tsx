@@ -15,7 +15,7 @@ const LocationPage = () => {
 
           <div className="relative overflow-hidden rounded-xl shadow-[0_24px_80px_rgba(61,46,38,0.12)] aspect-[16/10] md:aspect-[16/8]">
             <img
-              src="https://maxfinanger.github.io/maxoghelenesbryllup/images/strand.jpeg"
+              src="https://www.maxoghelene.no/images/strand.jpeg"
               alt="Strand Restaurant"
               className="absolute inset-0 h-full w-full object-cover"
             />

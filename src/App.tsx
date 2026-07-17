@@ -4,7 +4,7 @@ import { RoutingMain } from "./routing/RoutingMain";
 
 function App() {
   return (
-    <Router basename="/maxoghelenesbryllup">
+    <Router>
       <div className="flex min-h-screen flex-col bg-[#f8f4ef] text-[#2f2621]">
         <Header />
 
