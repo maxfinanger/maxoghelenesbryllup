@@ -8,8 +8,7 @@ const scheduleItems = [
   {
     time: "16:30",
     title: "Velkomst ved Strand Restaurant",
-    description:
-      "Her blir det mingling, og servering av småretter og drikke.",
+    description: "Her blir det mingling, og servering av småretter og drikke.",
   },
   {
     time: "17:30",
