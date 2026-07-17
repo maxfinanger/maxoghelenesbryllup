@@ -58,7 +58,7 @@ const PlanPage = () => {
                 {scheduleItems.map((item) => (
                   <div
                     key={item.time}
-                    className="grid gap-4 md:grid-cols-[120px_1fr] md:gap-8 items-start"
+                    className="grid gap-6 md:grid-cols-[120px_1fr] md:gap-12 items-start"
                   >
                     <div className="text-left md:text-right pt-1">
                       <p className="text-2xl md:text-3xl font-serif text-[#2f2621] tracking-tight">
