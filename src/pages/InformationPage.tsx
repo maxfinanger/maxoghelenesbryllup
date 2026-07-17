@@ -55,9 +55,8 @@ const InformationPage = () => {
                 Dresscode
               </div>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                Vi ønsker at alle gjester kler seg pent til bryllupet. For menn
-                betyr dette smoking eller mørk dress, og for kvinner betyr dette
-                ankellange kjoler.
+                Dresscode er black tie. For menn betyr dette smoking eller mørk dress, og for kvinner betyr dette
+                ankellange kjoler. Siden det er et sommerbryllup skal dere slippe å møte opp i bunad.
               </p>
             </section>
 
