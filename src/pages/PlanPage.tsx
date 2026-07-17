@@ -46,7 +46,7 @@ const PlanPage = () => {
           <div className="text-center space-y-4">
             <br />
             <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
-              Planen for dagen
+              Plan for dagen
             </h1>
             <p className="text-lg font-serif tracking-tight text-[#2f2621]">
               Lørdag 10. juli 2027

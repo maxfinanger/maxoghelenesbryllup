@@ -17,7 +17,7 @@ export function RoutingMain() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/*" element={<NotFoundPage />} />
-      <Route path="/planen-for-dagen" element={<PlanPage />} />
+      <Route path="/plan-for-dagen" element={<PlanPage />} />
       <Route path="/festen" element={<LocationPage />} />
       <Route path="/om-oss" element={<AboutUsPage />} />
       <Route path="/ønskeliste" element={<WishesPage />} />

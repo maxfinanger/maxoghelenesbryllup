@@ -7,12 +7,12 @@ export function Header() {
 
   const navLinks = [
     { to: "/", label: "Hjem" },
-    { to: "/planen-for-dagen", label: "Planen for dagen" },
-    { to: "/festen", label: "Festen" },
+    { to: "/plan-for-dagen", label: "Plan for dagen" },
+    //{ to: "/festen", label: "Festen" },
     { to: "/informasjon", label: "Informasjon" },
     { to: "/ønskeliste", label: "Ønskeliste" },
     { to: "/rsvp", label: "RSVP" },
-    { to: "/om-oss", label: "Om oss" },
+    //{ to: "/om-oss", label: "Om oss" },
   ];
 
   return (

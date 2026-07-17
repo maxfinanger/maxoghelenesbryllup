@@ -14,6 +14,25 @@ const InformationPage = () => {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2 justify-items-center">
+
+              <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
+              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+                Vielsen i Fagerborg Kirke
+              </div>
+              <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                Vielsen finner sted i Fagerborg Kirke, som ligger i Oslo sentrum. Adressen er pilstredet 72, 0354 Oslo.
+              </p>
+            </section>
+
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
+              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+                Festen i Strand Restaurant
+              </div>
+              <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                Festen finner sted i Strand Restaurant, som ligger i Oslo sentrum. Adressen er Strandalleen 48, 1368 Stabekk. Det blir servert 3 retters middag, med vin til maten. Etter vielsen kommer det også småretter, og mot slutten av kvelden blir det nattmat for de som blir igjen på festen.
+              </p>
+            </section>
+
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Toastmaster
