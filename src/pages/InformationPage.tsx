@@ -14,7 +14,7 @@ const InformationPage = () => {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-2 justify-items-center">
-            <section className="w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Toastmaster
               </div>
@@ -27,7 +27,7 @@ const InformationPage = () => {
               </p>
             </section>
 
-            <section className="w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Dresscode
               </div>
@@ -37,13 +37,13 @@ const InformationPage = () => {
               
             </section>
 
-            <section className="lg:col-span-2 w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-8 overflow-visible">
+            <section className="lg:col-span-2 w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-8 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Transport og ankomst
               </div>
 
               <div className="grid gap-6 md:grid-cols-2">
-                <div className="rounded-xl bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
+                <div className="rounded-md bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
                   <h3 className="text-lg md:text-xl font-serif text-[#2f2621]">
                     Kollektivtransport
                   </h3>
@@ -55,7 +55,7 @@ const InformationPage = () => {
                   </p>
                 </div>
 
-                <div className="rounded-xl bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
+                <div className="rounded-md bg-[#f7efe8] p-6 md:p-7 space-y-3 text-[#5c4738]">
                   <h3 className="text-lg md:text-xl font-serif text-[#2f2621]">
                     Bil og parkering
                   </h3>

@@ -15,7 +15,7 @@ const RsvpPage = () => {
             </p>
           </div>
           <br />
-          <div className="rounded-[2rem] bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-8 md:p-10 space-y-6 text-left md:text-center">
+          <div className="rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 md:p-10 space-y-6 text-left md:text-center">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
               Gi beskjed til Max eller Helene om dere har anledning til å komme
               eller ikke. Informer oss også om eventuelle matallergier,
@@ -24,10 +24,10 @@ const RsvpPage = () => {
             </p>
 
             <div className="grid gap-4 md:grid-cols-2 pt-2">
-              <div className="rounded-2xl bg-[#f7efe8] px-5 py-4 text-sm md:text-base text-[#5c4738]">
+              <div className="rounded-md bg-[#f7efe8] px-5 py-4 text-sm md:text-base text-[#5c4738]">
                 Max: 942 83 152
               </div>
-              <div className="rounded-2xl bg-[#f7efe8] px-5 py-4 text-sm md:text-base text-[#5c4738]">
+              <div className="rounded-md bg-[#f7efe8] px-5 py-4 text-sm md:text-base text-[#5c4738]">
                 Helene: 481 79 367
               </div>
             </div>

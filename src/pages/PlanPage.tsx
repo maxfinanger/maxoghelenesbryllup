@@ -16,7 +16,7 @@ const PlanPage = () => {
           </div>
           <br />
           <div className="flex flex-col gap-8 items-center">
-            <article className="w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Vielsen
               </div>
@@ -33,22 +33,7 @@ const PlanPage = () => {
               </div>
             </article>
 
-             <article className="w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
-              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
-                Tranport til festen
-              </div>
-              <div className="space-y-4 text-center">
-                <h2 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  Buss eller Bil
-                </h2>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Mer informasjon under informasjonssiden
-                </p>
-                
-              </div>
-            </article>
-
-            <article className="w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-10 md:p-12 space-y-6 overflow-visible">
+            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Fest og middag
               </div>

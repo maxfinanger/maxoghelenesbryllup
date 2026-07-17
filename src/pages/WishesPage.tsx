@@ -12,7 +12,7 @@ const WishesPage = () => {
             </h1>
           </div>
           <br />
-          <div className="w-full rounded-xl bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_24px_80px_rgba(61,46,38,0.08)] p-8 md:p-10 space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed mx-auto">
+          <div className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 md:p-10 space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed mx-auto">
             <p>
               Den beste gaven dere kan gi oss er deres tilstedeværelse på vår
               store dag. Om dere ønsker å gi oss en gave, så skal vi publisere
