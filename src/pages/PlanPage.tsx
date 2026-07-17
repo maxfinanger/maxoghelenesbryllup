@@ -18,26 +18,59 @@ const PlanPage = () => {
           <div className="flex flex-col gap-8 items-center">
             <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
               <div className="space-y-4 text-center">
-                <h2 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  Vielse i Fagerborg kirke
-                </h2>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Pilestredet 72, 0354 Oslo
+                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
+                  14:30 - Vielse i Fagerborg kirke 
+                </h6>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                  Vi gifter oss i Fagerborg kirke, og vi gleder oss til å dele
+                  dette øyeblikket med dere.
                 </p>
-                <p className="inline-flex rounded-full bg-[#f7efe8] px-4 py-2 text-sm font-medium tracking-wide text-[#7a5b46]">
-                  Fra kl. 14:30 - 15:30
+               
+              </div>
+              <br />
+              <div className="space-y-4 text-center">
+                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
+                  16:30 - Velkomst ved Strand Restaurant
+                </h6>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                  Vi ønsker alle gjester velkommen til Strand Restaurant for
+                  mingling, mat og drikke.
+                </p>
+              </div>
+               <br />
+              <div className="space-y-4 text-center">
+                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
+                  17:30 - Middag
+                </h6>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                  Vi serverer en tre-retters middag, og det blir servert vin til maten. Her blir det også holdt taler.
+                </p>
+              </div>
+               <br />
+              <div className="space-y-4 text-center">
+                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
+                  20:30 - Kaffe og Kaker
+                </h6>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                  Etter middagen blir det servert kaffe og kaker.
+                </p>
+              </div>
+                <br />
+              <div className="space-y-4 text-center">
+                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
+                  22:00 - Dansegulv og fest
+                </h6>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                  Etter kake og kaffe blir det åpnet for dans og fest. Vi håper alle har lyst til å bli med på å feire oss videre inn i natten.
                 </p>
               </div>
               <br />
               <div className="space-y-4 text-center">
-                <h2 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                  Middag på Strand Restaurant
-                </h2>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Strandalleen 48, 1368 Stabekk
-                </p>
-                <p className="inline-flex rounded-full bg-[#f7efe8] px-4 py-2 text-sm font-medium tracking-wide text-[#7a5b46]">
-                  Fra ca. kl. 16:30 til 03:00
+                <h6 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
+                  01:00 - Nattmat
+                </h6>
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                  For de som blir igjen på festen, blir det servert nattmat mot slutten.
                 </p>
               </div>
             </article>
