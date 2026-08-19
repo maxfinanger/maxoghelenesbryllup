@@ -1,17 +1,17 @@
 const scheduleItems = [
   {
-    time: "14:30",
+    time: "13:00",
     title: "Vielse i Fagerborg kirke",
     description:
       "Vi gifter oss i Fagerborg kirke, og vi gleder oss til å dele dette øyeblikket med dere.",
   },
   {
-    time: "16:30",
+    time: "15:00",
     title: "Velkomst ved Strand Restaurant",
     description: "Her blir det mingling, og servering av småretter og drikke.",
   },
   {
-    time: "17:30",
+    time: "17:00",
     title: "Middag",
     description:
       "Vi serverer en tre-retters middag med vin til maten, og det blir holdt taler underveis.",
@@ -41,7 +41,7 @@ const PlanPage = () => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(201,162,123,0.12),_transparent_45%),linear-gradient(180deg,_rgba(255,250,247,0.65),_rgba(248,244,239,0.9))]" />
 
       <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center justify-center">
-        <div className="max-w-6xl mx-auto space-y-12">
+        <div className="max-w-3xl md:max-w-4xl mx-auto space-y-12 w-full">
           <div className="text-center space-y-4">
             <br />
             <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
@@ -53,29 +53,31 @@ const PlanPage = () => {
           </div>
           <br />
           <div className="flex flex-col gap-8 items-center">
-            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 md:p-12 overflow-visible">
-              <div className="space-y-8">
-                {scheduleItems.map((item) => (
-                  <div
-                    key={item.time}
-                    className="grid gap-6 md:grid-cols-[120px_1fr] md:gap-12 items-start"
-                  >
-                    <div className="text-left md:text-right pt-1">
-                      <p className="text-2xl md:text-3xl font-serif text-[#2f2621] tracking-tight">
-                        {item.time}
-                      </p>
-                    </div>
+            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] px-10 py-16 md:px-14 md:py-20 overflow-visible">
+              <div className="rounded-md border border-[#c9a27b]/40 px-7 py-12 md:px-11 md:py-16">
+                {/* Centered content block */}
+                <div className="max-w-xl mx-auto space-y-8">
+                  <br />
+                  {scheduleItems.map((item) => (
+                    <div
+                      key={item.time}
+                      className="grid gap-5 md:grid-cols-[110px_1fr] md:gap-10 items-start"
+                    >
+                      <div className="text-left md:text-right pt-1">
+                        <p className="text-2xl md:text-3xl font-serif text-[#2f2621] tracking-tight">
+                          {item.time}
+                        </p>
+                      </div>
 
-                    <div className="space-y-2">
-                      <h2 className="text-xl md:text-2xl font-serif text-[#2f2621]">
-                        {item.title}
-                      </h2>
-                      <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl">
-                        {item.description}
-                      </p>
+                      <div className="space-y-2 min-w-0">
+                        <h2 className="text-xl md:text-2xl font-serif text-[#2f2621]">
+                          {item.title}
+                        </h2>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                  <br />
+                </div>
               </div>
             </article>
           </div>

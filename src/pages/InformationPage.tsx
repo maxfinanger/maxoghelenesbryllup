@@ -41,11 +41,8 @@ const InformationPage = () => {
               <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
                 Toastmaster
               </div>
-              <h2 className="text-2xl md:text-3xl font-serif text-[#2f2621]">
-                Stian Lind
-              </h2>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                Kontakt Stian hvis dere ønsker å holde en tale, bidra med et
+                Kontakt Stian Lind hvis dere ønsker å holde en tale, bidra med et
                 innslag eller planlegger noe annet under middagen.
               </p>
             </section>

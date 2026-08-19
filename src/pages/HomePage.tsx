@@ -23,10 +23,10 @@ const HomePage = () => {
           <div className="mt-20 md:mt-24 flex justify-center">
             <div className="text-foreground px-10 py-5 text-center">
               <p className="text-sm uppercase text-white tracking-[2px] font-medium">
-                Fagerborg kirke kl. 14:30
+                Fagerborg kirke kl. 13:00
               </p>
               <p className="text-sm uppercase text-white tracking-[2px] font-medium mt-1">
-                Strand Restaurant fra kl. 16:30
+                Strand Restaurant fra kl. 15:00
               </p>
             </div>
           </div>
