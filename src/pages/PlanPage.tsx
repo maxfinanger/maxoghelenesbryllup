@@ -64,7 +64,7 @@ const PlanPage = () => {
                       className="grid gap-5 md:grid-cols-[110px_1fr] md:gap-10 items-start"
                     >
                       <div className="text-left md:text-right pt-1">
-                        <p className="text-xl md:text-3xl font-serif text-[#2f2621] tracking-tight">
+                        <p className="text-xl md:text-2xl font-serif text-[#2f2621] tracking-tight">
                           {item.time}
                         </p>
                       </div>
