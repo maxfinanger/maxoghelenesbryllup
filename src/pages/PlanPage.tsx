@@ -53,24 +53,23 @@ const PlanPage = () => {
           </div>
           <br />
           <div className="flex flex-col gap-8 items-center">
-            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70">
+            <article className="sm:w-auto md:w-165 lg:w-165 rounded-lg bg-white/80 backdrop-blur-sm border border-white/70">
               <div className="rounded-md border border-[#c9a27b]/40 ">
-                {/* Centered content block */}
-                <div className="max-w-xl mx-auto space-y-8">
+                <div className="mx-auto">
                   <br />
                   {scheduleItems.map((item) => (
                     <div
                       key={item.time}
-                      className="grid gap-5 md:grid-cols-[110px_1fr] md:gap-10 items-start"
+                      className="grid gap-5 md:grid-cols-[110px_1fr] md:gap-10 "
                     >
-                      <div className="text-left md:text-right pt-1">
-                        <p className="text-xl md:text-2xl font-serif text-[#2f2621] tracking-tight">
+                      <div className=" md:text-right pt-1">
+                        <p className="text-xl md:text-2xl sm:text-xs font-serif text-[#2f2621] tracking-tight">
                           {item.time}
                         </p>
                       </div>
 
-                      <div className="space-y-2 min-w-0">
-                        <h2 className="text-xl md:text-2xl font-serif uppercase text-[#2f2621]">
+                      <div className="min-w-0">
+                        <h2 className="text-xl md:text-2xl sm:text-xs font-serif uppercase text-[#2f2621]">
                           {item.title}
                         </h2>
                       </div>
