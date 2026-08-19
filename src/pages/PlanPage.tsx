@@ -45,7 +45,7 @@ const PlanPage = () => {
           <div className="text-center space-y-4">
             <br />
             <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
-              Plan for dagen
+              Plan For Dagen
             </h1>
             <p className="text-lg font-serif tracking-tight text-[#2f2621]">
               Lørdag 10. juli 2027
@@ -53,8 +53,8 @@ const PlanPage = () => {
           </div>
           <br />
           <div className="flex flex-col gap-8 items-center">
-            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] px-10 py-16 md:px-14 md:py-20 overflow-visible">
-              <div className="rounded-md border border-[#c9a27b]/40 px-7 py-12 md:px-11 md:py-16">
+            <article className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70">
+              <div className="rounded-md border border-[#c9a27b]/40 ">
                 {/* Centered content block */}
                 <div className="max-w-xl mx-auto space-y-8">
                   <br />
@@ -64,16 +64,17 @@ const PlanPage = () => {
                       className="grid gap-5 md:grid-cols-[110px_1fr] md:gap-10 items-start"
                     >
                       <div className="text-left md:text-right pt-1">
-                        <p className="text-2xl md:text-3xl font-serif text-[#2f2621] tracking-tight">
+                        <p className="text-xl md:text-3xl font-serif text-[#2f2621] tracking-tight">
                           {item.time}
                         </p>
                       </div>
 
                       <div className="space-y-2 min-w-0">
-                        <h2 className="text-xl md:text-2xl font-serif text-[#2f2621]">
+                        <h2 className="text-xl md:text-2xl font-serif uppercase text-[#2f2621]">
                           {item.title}
                         </h2>
                       </div>
+                      <div/>
                     </div>
                   ))}
                   <br />

@@ -15,9 +15,9 @@ const InformationPage = () => {
 
           <div className="grid gap-8 lg:grid-cols-2 justify-items-center">
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
-              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em]">
                 Vielsen i Fagerborg Kirke
-              </div>
+              </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Vielsen finner sted i Fagerborg Kirke, som ligger i Oslo
                 sentrum. Adressen er pilstredet 72, 0354 Oslo.
@@ -25,9 +25,9 @@ const InformationPage = () => {
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
-              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em]">
                 Festen i Strand Restaurant
-              </div>
+              </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Festen finner sted i Strand Restaurant, som ligger i Oslo
                 sentrum. Adressen er Strandalleen 48, 1368 Stabekk. Det blir
@@ -38,9 +38,9 @@ const InformationPage = () => {
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
-              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em]">
                 Toastmaster
-              </div>
+              </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Kontakt Stian Lind hvis dere ønsker å holde en tale, bidra med et
                 innslag eller planlegger noe annet under middagen.
@@ -48,9 +48,9 @@ const InformationPage = () => {
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
-              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em]">
                 Dresscode
-              </div>
+              </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Dresscode er black tie. For menn betyr dette smoking eller mørk dress, og for kvinner betyr dette
                 ankellange kjoler. Siden det er et sommerbryllup skal dere slippe å møte opp i bunad.
@@ -58,9 +58,9 @@ const InformationPage = () => {
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
-              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em]">
                 Kollektivtransport
-              </div>
+              </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Det går busser mellom Oslo og Strand. Enkelste vei blir
                 antagelig 21-bussen eller trikken til Holbergs plass, deretter
@@ -70,9 +70,9 @@ const InformationPage = () => {
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-10 md:p-12 space-y-6 overflow-visible">
-              <div className="inline-flex w-fit rounded-full border border-amber-900/15 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.3em] text-amber-900/80">
+              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em]">
                 Bil og parkering
-              </div>
+              </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Det er også mulig å parkere ved kirken og ved Strand Restaurant,
                 og stedet har en privat gjestebrygge.
