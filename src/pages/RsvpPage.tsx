@@ -15,7 +15,7 @@ const RsvpPage = () => {
             </p>
           </div>
           <br />
-          <div className="rounded-lg bg-white/80 backdrop-blur-sm border border-white/70 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 md:p-10 space-y-6 text-left md:text-center">
+          <div className="rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 md:p-10 space-y-6 text-left md:text-center">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
               Gi beskjed til Max eller Helene om dere har anledning til å komme
               eller ikke. Informer oss også om eventuelle matallergier eller
