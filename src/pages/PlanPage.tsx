@@ -55,25 +55,25 @@ const PlanPage = () => {
               <div className="rounded-md border border-[#c9a27b]/40">
                 <div className="mx-auto">
                   <br />
-                  {scheduleItems.map((item) => (
-                    <div
-                      key={item.time}
-                      className="grid gap-5 md:grid-cols-[110px_1fr] md:gap-10 "
-                    >
-                      <div className=" md:text-right pt-1">
-                        <p className="text-xl md:text-2xl sm:text-xs font-serif text-[#2f2621] tracking-tight">
-                          {item.time}
-                        </p>
-                      </div>
+                    {scheduleItems.map((item) => (
+                      <div
+                        key={item.time}
+                        className="grid grid-cols-[64px_1fr] gap-4 items-baseline md:grid-cols-[110px_1fr] md:gap-10"
+                      >
+                        <div className="text-right pt-1">
+                          <p className="text-base md:text-2xl font-serif text-[#2f2621] tracking-tight">
+                            {item.time}
+                          </p>
+                        </div>
 
-                      <div className="min-w-0">
-                        <h2 className="text-xl md:text-2xl sm:text-xs font-serif uppercase text-[#2f2621]">
-                          {item.title}
-                        </h2>
+                        <div className="min-w-0">
+                          <h2 className="text-base md:text-2xl font-serif uppercase text-[#2f2621]">
+                            {item.title}
+                          </h2>
+                        </div>
+                        <div />
                       </div>
-                      <div/>
-                    </div>
-                  ))}
+                    ))}
                   <br />
                 </div>
               </div>
