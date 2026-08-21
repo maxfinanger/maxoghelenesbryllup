@@ -17,7 +17,7 @@ const InformationPage = () => {
                 Vielsen i Fagerborg Kirke
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Vielsen finner sted i Fagerborg Kirke, som ligger mellom bislett og majorstuen. Adressen er pilstredet 72, 0354 Oslo.
+                Vielsen finner sted i Fagerborg Kirke, den ligger mellom bislett og majorstuen. Adressen er pilstredet 72, 0354 Oslo. Vielsen vil ta rundt 1 time.
               </p>
             </section>
 
@@ -65,7 +65,7 @@ const InformationPage = () => {
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
                 Det går busser mellom Oslo og Strand. Enkelste vei blir
                 antagelig 21-bussen eller trikken til Holbergs plass, deretter
-                ta 160-bussen til Strand. Derfra kan man også gå ned til
+                ta 160-bussen til Strand. Derfra kan man gå ned til
                 restauranten.
               </p>
             </section>
