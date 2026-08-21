@@ -6,15 +6,13 @@ const RsvpPage = () => {
       <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center justify-center">
         <div className="w-full max-w-3xl mx-auto text-center space-y-10">
           <div className="space-y-4">
-            <br />
-            <h1 className="text-5xl md:text-7xl font-serif tracking-tight text-[#2f2621]">
+            <h1 className="text-4xl md:text-5xl uppercase font-serif tracking-tight text-[#2f2621]">
               RSVP
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground">
               Vi gleder oss til å feire med dere.
             </p>
           </div>
-          <br />
           <div className="rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 md:p-10 space-y-6 text-left md:text-center">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
               Gi beskjed til Max eller Helene om dere har anledning til å komme

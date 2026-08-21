@@ -7,7 +7,7 @@ const LocationPage = () => {
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <br />
-            <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
+            <h1 className="text-4xl md:text-6xl uppercase font-serif tracking-tight text-[#2f2621]">
               Strand Restaurant
             </h1>
             <br />

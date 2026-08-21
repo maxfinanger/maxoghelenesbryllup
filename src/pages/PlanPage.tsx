@@ -43,18 +43,16 @@ const PlanPage = () => {
       <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center justify-center">
         <div className="max-w-3xl md:max-w-4xl mx-auto space-y-12 w-full">
           <div className="text-center space-y-4">
-            <br />
-            <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
+            <h1 className="text-4xl md:text-5xl uppercase font-serif tracking-tight text-[#2f2621]">
               Plan For Dagen
             </h1>
             <p className="text-lg font-serif tracking-tight text-[#2f2621]">
               Lørdag 10. juli 2027
             </p>
           </div>
-          <br />
           <div className="flex flex-col gap-8 items-center">
             <article className="sm:w-auto md:w-165 lg:w-165 rounded-lg bg-white/80 backdrop-blur-sm border border-white/70">
-              <div className="rounded-md border border-[#c9a27b]/40 ">
+              <div className="rounded-md border border-[#c9a27b]/40">
                 <div className="mx-auto">
                   <br />
                   {scheduleItems.map((item) => (

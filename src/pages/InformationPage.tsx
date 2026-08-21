@@ -6,49 +6,50 @@ const InformationPage = () => {
       <div className="relative container mx-auto px-6 py-16 md:py-24 flex items-center justify-center">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
-            <br />
-            <h1 className="text-4xl md:text-6xl font-serif tracking-tight text-[#2f2621]">
+            <h1 className="text-4xl md:text-5xl font-serif tracking-tight text-[#2f2621] uppercase">
               Praktisk Informasjon
             </h1>
-            <br />
           </div>
 
           <div className="grid gap-8 md:gap-10 lg:grid-cols-2 justify-items-center">
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
-              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em] mb-3">
+              <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Vielsen i Fagerborg Kirke
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Vielsen finner sted i Fagerborg Kirke, som ligger i Oslo
-                sentrum. Adressen er pilstredet 72, 0354 Oslo.
+                Vielsen finner sted i Fagerborg Kirke, som ligger mellom bislett og majorstuen. Adressen er pilstredet 72, 0354 Oslo.
               </p>
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
-              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em] mb-3">
+              <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Festen i Strand Restaurant
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Festen finner sted i Strand Restaurant, som ligger i Oslo
-                sentrum. Adressen er Strandalleen 48, 1368 Stabekk. Det blir
-                servert 3 retters middag, med vin til maten. Etter vielsen
-                kommer det også småretter, og mot slutten av kvelden blir det
+                Festen finner sted i Strand Restaurant. Adressen er Strandalleen 48, 1368 Stabekk. Det blir
+                servert 3 retters middag, med vin til maten. Etter middagen blir det servert kaffe og kaker, dere må gjerne ta med kake om dere ønsker. Mot slutten av kvelden blir det
                 nattmat for de som blir igjen på festen.
               </p>
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
-              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em] mb-3">
+              <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Toastmaster
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
                 Kontakt Stian Lind hvis dere ønsker å holde en tale, bidra med et
                 innslag eller planlegger noe annet under middagen.
               </p>
+              <p className="text-base md:text-lg text-muted-foreground leading-loose">
+                Telefon: 922 88 888 Dummydummer
+              </p>
+                <p className="text-base md:text-lg text-muted-foreground leading-loose">
+                Epost: stian.lind@example.com
+              </p>
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
-              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em] mb-3">
+              <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Dresscode
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
@@ -58,7 +59,7 @@ const InformationPage = () => {
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
-              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em] mb-3">
+              <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Kollektivtransport
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
@@ -70,11 +71,11 @@ const InformationPage = () => {
             </section>
 
             <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
-              <h5 className="inline-flex w-fit rounded-full px-4 py-2 text-lg uppercase tracking-[0.3em] mb-3">
+              <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Bil og parkering
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Det er også mulig å parkere ved kirken og ved Strand Restaurant,
+                Det er mulig å parkere ved kirken og ved Strand Restaurant,
                 og stedet har en privat gjestebrygge.
               </p>
             </section>

@@ -28,7 +28,7 @@ export function Header() {
               >
                 Helene &amp; Max
               </Link>
-              <p className="text-[10px] uppercase tracking-[1px] text-muted-foreground -mt-1">
+              <p className="text-[10px] tracking-[1px] text-muted-foreground -mt-1">
                 10. juli 2027
               </p>
             </div>
