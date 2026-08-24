@@ -33,6 +33,11 @@ const scheduleItems = [
     description:
       "For de som blir igjen på festen, blir det servert nattmat mot slutten.",
   },
+  {
+    time: "02.00",
+    title: "Avslutning av festen",
+    description: "Festet avsluttes, og vi takker alle for en fantastisk dag og kveld.",
+  }
 ];
 
 const PlanPage = () => {
@@ -74,7 +79,6 @@ const PlanPage = () => {
                         <div />
                       </div>
                     ))}
-                  <br />
                 </div>
               </div>
             </article>
