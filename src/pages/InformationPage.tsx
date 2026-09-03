@@ -41,10 +41,10 @@ const InformationPage = () => {
                 innslag eller planlegger noe annet under middagen.
               </p>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Telefon: 922 88 888 Dummydummer
+                Telefon: 414 79 639
               </p>
                 <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Epost: stian.lind@example.com
+                Epost: stianlind@hotmail.com
               </p>
             </section>
 
