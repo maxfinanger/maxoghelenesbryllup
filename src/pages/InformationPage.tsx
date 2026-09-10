@@ -11,34 +11,38 @@ const InformationPage = () => {
             </h1>
           </div>
 
-          <div className="grid gap-8 md:gap-10 lg:grid-cols-2 justify-items-center">
-            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
+          <div className="grid grid-cols-1 gap-8 md:gap-10 lg:grid-cols-2 justify-items-center">
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 sm:p-10 md:p-12 space-y-6 overflow-visible">
               <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Vielsen i Fagerborg Kirke
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Vielsen finner sted i Fagerborg Kirke, den ligger mellom bislett og majorstuen. Adressen er pilstredet 72, 0354 Oslo. Vielsen vil ta rundt 1 time.
+                Vielsen vil finne sted i Fagerborg kike. Vi ønsker en mobilfri vielse, da vi har fotograf som vil ta bilder.  
+              </p>
+              <p className="text-base md:text-lg text-muted-foreground leading-loose">
+              Adressen: Pilestredet 72, 0354 Oslo.               
               </p>
             </section>
 
-            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 sm:p-10 md:p-12 space-y-6 overflow-visible">
               <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Festen i Strand Restaurant
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Festen finner sted i Strand Restaurant. Adressen er Strandalleen 48, 1368 Stabekk. Det blir
-                servert 3 retters middag, med vin til maten. Etter middagen blir det servert kaffe og kaker, dere må gjerne ta med kake om dere ønsker. Mot slutten av kvelden blir det
-                nattmat for de som blir igjen på festen.
+                Festen vil være på Strand Restaurant. Det blir servert 3 retters middag, med vin til maten. Etter middag og dessert blir det dansegulv, med mulighet for å kjøpe drikke i baren. 
+                Mot slutten av kvelden blir det nattmat for de som er igjen på festen.
+              </p>
+               <p className="text-base md:text-lg text-muted-foreground leading-loose">
+                Adresse: Strandalleen 48, 1368 Stabekk.
               </p>
             </section>
 
-            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 sm:p-10 md:p-12 space-y-6 overflow-visible">
               <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Toastmaster
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Kontakt Stian Lind hvis dere ønsker å holde en tale, bidra med et
-                innslag eller planlegger noe annet under middagen.
+                Vi er så heldige som har fått vår venn Stian Lind til å lede oss gjennom denne kvelden. Ønsker du å holde tale eller bidra med noe annet innslag ønsker vi at du tar kontakt med han. 
               </p>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
                 Telefon: 414 79 639
@@ -48,37 +52,34 @@ const InformationPage = () => {
               </p>
             </section>
 
-            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 sm:p-10 md:p-12 space-y-6 overflow-visible">
               <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Dresscode
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Dresscode er black tie. For menn betyr dette smoking eller mørk dress, og for kvinner betyr dette
-                ankellange kjoler. Siden det er et sommerbryllup skal dere slippe å møte opp i bunad.
+                Dresscode er black tie. For menn betyr dette smoking eller mørk dress, og for kvinner betyr dette ankellange kjoler, gjerne lyse sommerfarger. 
               </p>
             </section>
 
-            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
-              <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
-                Kollektivtransport
-              </h5>
-              <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Det går busser mellom Oslo og Strand. Enkelste vei blir
-                antagelig 21-bussen eller trikken til Holbergs plass, deretter
-                ta 160-bussen til Strand. Derfra kan man gå ned til
-                restauranten.
-              </p>
-            </section>
-
-            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-14 md:p-20 space-y-6 overflow-visible">
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 sm:p-10 md:p-12 space-y-6 overflow-visible">
               <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
                 Bil og parkering
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Det er mulig å parkere ved kirken og ved Strand Restaurant,
-                og stedet har en privat gjestebrygge.
+                Det er begrenset med parkeringsplasser utenfor Fagerborg kirke. Vi anbefaler å benytte gateparkering i nærheten. 
+                Ved Strand restaurant er det tilgjengelig parkeringsplasser. 
               </p>
             </section>
+
+            <section className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 sm:p-10 md:p-12 space-y-6 overflow-visible">
+              <h5 className="inline-flex w-fit rounded-full py-2 text-lg uppercase tracking-[0.3em] mb-3">
+                Kollektivtransport
+              </h5>
+              <p className="text-base md:text-lg text-muted-foreground leading-loose">
+                Det går busser mellom Oslo og Strand. 160-bussen til Strand går fra flere steder i byen, blant annet Holbergs plass, Nationalteateret og Vika. Det tar ca. 10 min å gå bra busstoppet til Strand restaurant. 
+              </p>
+            </section>
+
           </div>
         </div>
       </div>

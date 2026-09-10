@@ -34,7 +34,7 @@ const scheduleItems = [
       "For de som blir igjen på festen, blir det servert nattmat mot slutten.",
   },
   {
-    time: "02.00",
+    time: "01.45",
     title: "Avslutning av festen",
     description: "Festet avsluttes, og vi takker alle for en fantastisk dag og kveld.",
   }
