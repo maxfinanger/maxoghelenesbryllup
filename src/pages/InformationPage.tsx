@@ -30,7 +30,7 @@ const InformationPage = () => {
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
                 Festen vil være på Strand Restaurant. Det blir servert 3 retters middag, med vin til maten. Etter middag og dessert blir det dansegulv, med mulighet for å kjøpe drikke i baren. 
-                Mot slutten av kvelden blir det nattmat for de som er igjen på festen.
+                Mot slutten av kvelden blir det nattmat for de som er igjen på festen. Vi håper på forståelse for at vi ikke ønsker småbarn på festen.
               </p>
                <p className="text-base md:text-lg text-muted-foreground leading-loose">
                 Adresse: Strandalleen 48, 1368 Stabekk.
