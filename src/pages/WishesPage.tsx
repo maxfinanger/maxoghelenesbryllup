@@ -12,8 +12,7 @@ const WishesPage = () => {
           </div>
           <div className="w-full rounded-lg bg-white/80 backdrop-blur-sm border border-[#c9a27b]/40 shadow-[0_8px_24px_rgba(61,46,38,0.03)] p-8 md:p-10 space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed mx-auto">
             <p>
-              Den største gaven for oss er at du vil feire dagen sammen med oss! For de som ønsker å gi en gave, setter vi stor pris på et bidrag til vår bryllupsreise. Dette kan overføres til 12271466380.
-              Vi har også laget en ønskeliste, for de som ønsker å gi en fysisk gave.
+              Den største gaven for oss er at du vil feire dagen sammen med oss! For de som ønsker å gi en gave, kommer det en ønskeliste til denne siden etter jul. Hvis du heller å ønsker å gi et bidrag til vår bryllupsreise setter vi også pris på det. 
             </p>
             <p>
               Tusen takk!
@@ -21,7 +20,6 @@ const WishesPage = () => {
 
             <p className="text-sm text-[#8b6a55]">
              Ønskelisten er under arbeid, og vil blir lagt til her så snart den er klar. 
-
             </p>
           </div>
         </div>

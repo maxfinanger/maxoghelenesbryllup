@@ -57,7 +57,7 @@ const InformationPage = () => {
                 Dresscode
               </h5>
               <p className="text-base md:text-lg text-muted-foreground leading-loose">
-                Dresscode er black tie. For menn betyr dette smoking eller mørk dress, og for kvinner betyr dette ankellange kjoler, gjerne lyse sommerfarger. 
+                Dresscode er black tie. For menn betyr dette smoking eller mørk dress, og for kvinner betyr dette ankellange kjoler. 
               </p>
             </section>
 
