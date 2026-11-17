@@ -13,6 +13,7 @@ export function Header() {
     { to: "/ønskeliste", label: "Ønskeliste" },
     { to: "/rsvp", label: "RSVP" },
     //{ to: "/om-oss", label: "Om oss" },
+    //Kommentar for å rerunne siden
   ];
 
   return (
